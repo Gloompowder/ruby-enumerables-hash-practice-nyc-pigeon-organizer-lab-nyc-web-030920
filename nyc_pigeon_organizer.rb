@@ -18,7 +18,6 @@ def nyc_pigeon_organizer(data)
      end
   end
   pigeon_list
-end 
 
 #   boy_pigeons = pigeon_data[:gender][:male]
 #   girl_pigeons = pigeon_data[:gender][:female]
