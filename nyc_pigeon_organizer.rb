@@ -9,8 +9,8 @@ def nyc_pigeon_organizer(data)
          if !pigeon_list[each_name]
             pigeon_list[each_name] = {
               :color => [],
-    :gender => [],
-    :lives => []
+              :gender => [],
+              :lives => []
             }
        end
        binding.pry
