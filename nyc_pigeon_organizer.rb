@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
     :lives => []
             }
        end
+       binding.pry
            if key == pigeon_list[each_name]
              pigeon_list[each_name] << new_key.to_s
         end
