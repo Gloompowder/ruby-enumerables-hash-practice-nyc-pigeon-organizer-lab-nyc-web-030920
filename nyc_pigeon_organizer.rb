@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
             }
        end
            if names == pigeon_list[each_name]
-             pigeon_list[each_name] << new_key.to_s.capitalize
+             pigeon_list[each_name] << new_key.to_s
         end
      end
   end
