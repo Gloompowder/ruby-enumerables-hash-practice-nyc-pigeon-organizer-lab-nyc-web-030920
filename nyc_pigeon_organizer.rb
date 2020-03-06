@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
     :lives => []
             }
        end
-           if names == pigeon_list[each_name]
+           if key == pigeon_list[each_name]
              pigeon_list[each_name] << new_key.to_s
         end
      end
