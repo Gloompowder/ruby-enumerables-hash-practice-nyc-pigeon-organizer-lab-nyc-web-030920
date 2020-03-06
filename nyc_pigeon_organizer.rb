@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
             }
        end
        binding.pry
-           if new_key == pigeon_list[each_name]
+           if new_key.to_s == pigeon_list[each_name]
              pigeon_list[each_name] << new_key.to_s
         end
      end
